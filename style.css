@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+body{
+    background-color: #50946C;
+}
+h1{
+    background-color:#081b31 ;
+    color: #fff;
+    height: 5rem;
+   line-height: 5rem; 
+   /* here line-height is given as given as height so the txt become in center */
+
+}
+
+
+.choice{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.choice:hover{
+background-color: #081b31;
+    cursor: pointer;
+}
+img{
+    height: 110px;
+    width: 110px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 4rem;
+}
+
+#user-score , #comp-score {
+
+    font-size: 3rem;
+}
+.msg-container{
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+#msg{
+    background-color: #081b31;
+    color: #fff;
+   
+    font-size: 2rem;
+    margin-top: 1rem;
+    display: inline;
+    /* inline use so span k jese space lega */
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+
+.newGame{
+
+    font-size: 1rem;
+    background-color: #081b31;
+    color: #fff;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-weight: 600;
+
+}
